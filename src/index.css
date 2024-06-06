@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'IranYekan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/iranyekan-cufonfonts/Qs_Iranyekan.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'IranYekan';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../src/assets/iranyekan-cufonfonts/Qs_Iranyekan\ medium.ttf) format('truetype');
+}
+
+body {
+  font-family: 'IranYekan', sans-serif;
+}
+
+html,
+body {
+  direction: rtl;
+}
+
+.dir-ltr {
+  direction: ltr;
 }

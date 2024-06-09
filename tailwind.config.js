@@ -87,6 +87,9 @@ module.exports = {
         transparent: "transparent",
         myblack: "#00000",
         myblue: "#1B4E8D",
+        mygray: "#9CA3AF",
+        mycard: "#F0F7FE",
+        
       },
       fontSize: {
         10: ["0.625rem", "0.75rem"],

@@ -9,5 +9,7 @@ import  hasin from "./assets/images/hasin.svg";
 import  farabom from "./assets/images/farabom.svg";
 import  rahsa from "./assets/images/rahsa.svg";
 import  fanavaran from "./assets/images/fanavaran.svg";
+import  pishkhan from "./assets/images/pishkhan.png";
+import  vectore from "./assets/images/Vectore .png";
 
-export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran };
+export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,vectore};

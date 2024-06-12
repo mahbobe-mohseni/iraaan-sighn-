@@ -10,8 +10,12 @@ import  farabom from "./assets/images/farabom.svg";
 import  rahsa from "./assets/images/rahsa.svg";
 import  fanavaran from "./assets/images/fanavaran.svg";
 import  pishkhan from "./assets/images/pishkhan.png";
- import mm from "./assets/images/mm.png"
-import lock from "./assets/images/lock.svg"
+ import mobile from "./assets/images/mobile.svg"
+ import lock from "./assets/images/lock.svg"
 import clock from "./assets/images/clock.svg"
 import coines from "./assets/images/coines.svg"
-export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mm,lock,clock,coines};
+import p1 from "./assets/images/p1.svg"
+import p2 from "./assets/images/p2.svg"
+import p3 from "./assets/images/p3.svg"
+import p4 from "./assets/images/p4.svg"
+export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mobile,lock,clock,coines,p1,p2,p3,p4};

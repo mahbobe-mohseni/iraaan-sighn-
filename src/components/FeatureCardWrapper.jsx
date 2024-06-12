@@ -1,10 +1,10 @@
 import React from "react";
-import FeatureCard from "./FeatureCard";
-import { mm,lock,clock,coines}  from '../images';
+import FeatureCard from "./FeatureCard";  
+import { mobile,lock,clock,coines}  from '../images';
 const FeatureCardWrapper = () => {
   const features = [
     {
-       icon: mm,
+       icon: mobile,
       title: "ذخیره‌سازی روی تلفن همراه",
       description:
         "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.",

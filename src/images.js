@@ -18,4 +18,5 @@ import p1 from "./assets/images/p1.svg"
 import p2 from "./assets/images/p2.svg"
 import p3 from "./assets/images/p3.svg"
 import p4 from "./assets/images/p4.svg"
-export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mobile,lock,clock,coines,p1,p2,p3,p4};
+import LowerBackGround from "./assets/images/LowerBackGround.png"
+export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mobile,lock,clock,coines,p1,p2,p3,p4,LowerBackGround};

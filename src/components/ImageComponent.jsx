@@ -6,10 +6,10 @@ const ImageComponent = () => {
   return (
     <section
       style={{ backgroundImage: `url(${BannerPicture})` }}
-      className="relative w-full bg-cover bg-center h-[416px] pt-[94px]" // vaghti gharar nist chizi bind koni nemikhad {} ro bezari
+      className="relative w-full bg-cover bg-center h-[416px] pt-[94px]" 
     > 
-      <div className="w-[607px] break-words mr-[200px]">
-        <p className="font-bold text-white text-4xl leading-[54px] mb-2">
+      <div className="w-[607px] break-words mr-[200px] sm:hideden">
+        <p className="font-bold text-white text-4xl leading-[54px] mb-2 sm:text-sm">
           از هرکجا به آسانی اسناد را به اشتراک بگذارید تا امضا شوند...
         </p>
 

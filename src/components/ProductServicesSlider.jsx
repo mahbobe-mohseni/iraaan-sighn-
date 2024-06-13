@@ -1,9 +1,10 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import {p1,p2,p3,p4} from '../images'
 // import 'swiper/swiper-bundle.min.css';
 // import 'swiper/swiper.min.css';
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 const ProductServicesSlider = () => {
   const services = [
     {
@@ -33,12 +34,12 @@ const ProductServicesSlider = () => {
   ];
 
   return (
-    <div className=" bg-white text-black py-6 mt-10">
+    <div className=" bg-white text-black py-6 mt-10 p-4 ">
       <h2 className="text-center text-2xl mb-8">محصولات و سرویس‌های ایران‌ساین</h2>
       <Swiper
          slidesPerView={4}
            centeredSlides={true}
-         spaceBetween={30}
+         spaceBetween={20}
          grabCursor={true}
         breakpoints={{
           640: {
@@ -57,7 +58,7 @@ const ProductServicesSlider = () => {
       >
         {services.map((service, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white rounded-2xl shadow-2xl p-4 w-80 h-80 mx-5">
+            <div className= "p-4 bg-white rounded-2xl shadow-2xl  ">
               <div className="flex items-center justify-start mb-4">
                 <span className="text-4xl"><img src={service.icon} className="w-20 h-20"/></span>
               </div>
@@ -73,3 +74,6 @@ const ProductServicesSlider = () => {
 };
 
 export default ProductServicesSlider;
+
+
+

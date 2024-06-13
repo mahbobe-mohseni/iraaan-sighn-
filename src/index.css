@@ -18,13 +18,11 @@
   src: url(../src/assets/iranyekan-cufonfonts/Qs_Iranyekan\ medium.ttf) format('truetype');
 }
 
-body {
-  font-family: 'IranYekan', sans-serif;
-}
-
 html,
 body {
   direction: rtl;
+  font-family: 'IranYekan', sans-serif;
+  @apply overflow-x-hidden
 }
 
 .dir-ltr {

@@ -58,7 +58,7 @@ const ProductServicesSlider = () => {
       >
         {services.map((service, index) => (
           <SwiperSlide key={index}>
-            <div className= "p-4 bg-white rounded-2xl shadow-2xl  ">
+            <div className= "p-4 bg-white rounded-2xl shadow-2xl sm:p-2 ">
               <div className="flex items-center justify-start mb-4">
                 <span className="text-4xl"><img src={service.icon} className="w-20 h-20"/></span>
               </div>

@@ -5,7 +5,8 @@ import Pishkhan from "../components/Pishkhan";
 import FeatureCardWrapper from "../components/FeatureCardWrapper";
 import ProductServicesSlider from "../components/ProductServicesSlider";
 import ContactForm from "../components/ContactForm";
-  import HamburgerMenu from "../components/HamburgerMenu";
+import Footer from "../components/Footer";
+   import HamburgerMenu from "../components/HamburgerMenu";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <FeatureCardWrapper />
       <ProductServicesSlider/>
       <ContactForm/>
+      <Footer/>
     </>
   );
 };

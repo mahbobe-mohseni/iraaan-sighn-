@@ -38,7 +38,6 @@ const ProductServicesSlider = () => {
       <h2 className="text-center text-2xl mb-8">محصولات و سرویس‌های ایران‌ساین</h2>
       <Swiper
          slidesPerView={4}
-           centeredSlides={true}
          spaceBetween={20}
          grabCursor={true}
         breakpoints={{
@@ -50,7 +49,7 @@ const ProductServicesSlider = () => {
             slidesPerView:2,
             spaceBetween: 20,
           },
-          1024: {
+          992: {
             slidesPerView:4,
             spaceBetween: 30,
           },

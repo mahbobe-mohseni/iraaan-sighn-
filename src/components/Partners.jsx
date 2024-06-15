@@ -20,7 +20,6 @@ const Partners = () => {
         <h2 className="text-center text-2xl font-bold mb-6">همکاران ما</h2>
         <Swiper
           slidesPerView={4}
-          centeredSlides={true}
           spaceBetween={30}
           grabCursor={true}
           breakpoints={{

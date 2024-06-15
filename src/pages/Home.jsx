@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
         {/* <div className="md:hidden"> */}
-      <HamburgerMenu />
+      {/* <HamburgerMenu /> */}
     {/* </div> */}
       <Navbar />
       <Header />

@@ -1,11 +1,14 @@
 import React from "react";
 import { Logo, Vector } from "../images";
 import { Link } from "react-router-dom";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header = () => {
   return (
     <header className="bg-white p-4 flex items-center justify-between border dir-ltr lg:px-[235px]">
-      <div className="flex items-center gap-4 text-myblue">
+      <HamburgerMenu />
+
+      <div className="lg:flex hidden items-center gap-4 text-myblue">
         <div className="flex items-center">
           <img src={Vector} alt=" " className="h-6 w-6 mr-2" />
           <span>EN|</span>

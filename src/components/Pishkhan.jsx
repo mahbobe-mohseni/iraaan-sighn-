@@ -8,10 +8,10 @@ const Pishkhan = () => {
           <img src={pishkhan} alt="" />
           
           <div className="text-box ">
-            <div className="title text-[32px] w-[544px] h-12 text-3xl font-bold ml-14 "> 
+            <div className="title text-[32px] w-[544px] h-12  font-bold ml-14  text-16 md:text-3xl"> 
               ایران‌ساین، سامانه جامع امضای دیجیتال
             </div>
-            <div className=" text-mygray mt-3 text-18 ">
+            <div className=" text-mygray mt-3 text-sm md:text-18  ">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
               استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
               در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد

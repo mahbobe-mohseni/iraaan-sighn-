@@ -9,7 +9,7 @@ const ImageComponent = () => {
       className="relative w-full bg-cover bg-center h-[416px] pt-[94px]" 
     > 
       <div className="w-[607px] break-words mr-[200px] sm:hideden">
-        <p className="font-bold text-white text-4xl leading-[54px] mb-2 sm:text-sm">
+        <p className="font-bold text-white text-4xl leading-[54px] mb-2 hidden sm:block">
           از هرکجا به آسانی اسناد را به اشتراک بگذارید تا امضا شوند...
         </p>
 

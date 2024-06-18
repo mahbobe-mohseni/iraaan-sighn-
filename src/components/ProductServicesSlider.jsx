@@ -53,7 +53,7 @@ const ProductServicesSlider = () => {
 
   return (
     <>
-      <h2 className="text-center text-2xl mb-8">
+      <h2 className="text-center text-2xl mb-8 mt-6">
         محصولات و سرویس‌های ایران‌ساین
       </h2>
       <Swiper
@@ -76,8 +76,8 @@ const ProductServicesSlider = () => {
         }}
       >
         {services.map((service, index) => (
-          <SwiperSlide key={index}>
-            <div className="p-4 bg-white rounded-2xl border shadow-lg sm:p-2 my-6">
+          <SwiperSlide key={index} className="">
+            <div className="p-4 bg-white rounded-2xl border shadow-lg  my-6 ">
               <div className="flex items-center justify-start mb-4">
                 <span className="text-4xl">
                   <img src={service.icon} className="w-20 h-20" alt="" />

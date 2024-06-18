@@ -6,14 +6,12 @@ import FeatureCardWrapper from "../components/FeatureCardWrapper";
 import ProductServicesSlider from "../components/ProductServicesSlider";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
-   import HamburgerMenu from "../components/HamburgerMenu";
-
+ 
 const Home = () => {
   return (
     <>
-        {/* <div className="md:hidden"> */}
-      {/* <HamburgerMenu /> */}
-    {/* </div> */}
+     
+  
       <Navbar />
       <Header />
       <ImageComponent />

@@ -23,4 +23,6 @@ import product1 from "./assets/images/product1.svg"
 import tell from "./assets/images/tell.svg"
 import loc from "./assets/images/loc.svg"
 import mail from "./assets/images/mail.svg"
-export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mobile,lock,clock,coines,p1,p2,p3,p4,LowerBackGround,product1,tell,loc,mail};
+import blogpic from "./assets/images/blogpic.svg"
+import user from "./assets/images/user.svg"
+export { Logo, Vector, BannerPicture, trust, vezarat, sanat,haf,hasin,farabom,rahsa,fanavaran,pishkhan,mobile,lock,clock,coines,p1,p2,p3,p4,LowerBackGround,product1,tell,loc,mail,blogpic,user};

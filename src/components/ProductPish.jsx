@@ -5,7 +5,7 @@ import { product1 } from "../images";
 const ProductPish = () => {
   return (
     <>
-          <div className="parent-tag bg-white px-24 mb-96">
+          <div className="parent-tag bg-white px-24 mb-48 mt-48">
       <div className="first-child flex gap-12 items-center justify-center container m-auto">
         <img src={product1} alt="" />
         

@@ -5,8 +5,7 @@ import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import { mail,tell,loc} from '../images'
 import  { useState } from "react";
- 
- 
+  
 
 const CallUs = () => {
   const [formData, setFormData] = useState({
@@ -34,9 +33,9 @@ const CallUs = () => {
        <Navbar />
        <Header />
   
-    <div className=' grid  grid-cols-2 gap-4 mr-28'>
-     <div className=" col-span-1 mt-32">
-     <div className='text-18 text-myblue' >
+    <div className='  sm:grid  sm:grid-cols-2 gap-4 sm:mr-28 mb-8  grid grid-cols-1 '>
+     <div className=" col-span-1 mt-32 ">
+     <div className='text-18 text-myblue ' >
         <h4>تماس با ما</h4>
         <h1 className="text-2xl mb-4 text-black">
         از طریق راه‌های ارتباطی زیر با ما در ارتباط باشید. 
@@ -46,24 +45,31 @@ const CallUs = () => {
         
        </div>
           
-      <div className=' inline-table'>
+      <div className=' flex items-center gap-4 mb-4'>
       <img src={tell} className='w-20 h-20' alt="" />
-           <span className=' text-14'>شماره تماس</span>
-          <p className=" text-2xl">+98 123 456 789</p>
+         <div className='flex flex-col gap-2'> 
+         <span className=' text-14'>شماره تماس</span>
+         < span className=" text-2xl">+98 123 456 789</span>
+         </div>
       </div>
-  <div>
+  <div className='flex items-center gap-4'>
   <img src={loc} alt="" />  
-             <span className=' text-14'>آدرس ایمیل</span>
+         <div className='flex flex-col'>
+         <span className=' text-14'>آدرس ایمیل</span>
         
-          <p className="text-2xl"> info@iran-sign.ir</p>
+        <p className="text-2xl"> info@iran-sign.ir</p>
+         </div>
   </div>
        
-       <div>
-       <img src={loc} alt="" /> <span className=' text-14'>آدرس دفتر</span>
+       <div className=' flex items-center mt-4'>
+       <img src={loc} alt="" />
+      <div className='flex flex-col gap-4 mr-3'>
+      <span className=' text-14'>آدرس دفتر</span>
       
-      <p className="text-2xl mb-9">
+      <p className="text-18">
         تهران، خیابان آزادی، بین خیابان نواب و اسکندری، پلاک 170، واحد 34
       </p>
+      </div>
        </div>
 
         </div>
@@ -71,9 +77,9 @@ const CallUs = () => {
 
         <form
         onSubmit={handleSubmit}
-        className=" bg-white p-6 rounded-3xl shadow-2xl w-full max-w-md"
+        className=" bg-white p-6 rounded-3xl shadow-2xl w-full max-w-md  "
       >
-        <div className="mb-6">
+        <div className="mb-8">
           <p className="mb-3 text-black">
             در صورت تمایل، اطلاعات خود را وارد کنید تا با شما تماس بگیریم.
           </p>

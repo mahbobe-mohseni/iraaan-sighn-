@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import ProductCard from "../components/ProductCard";
+
+
 import Footer from "../components/Footer";
 import {blogpic,user} from '../images'
 const WebLog = () => {
@@ -48,7 +51,7 @@ const WebLog = () => {
         </p>
     </div>
   </div>
-
+  <ProductCard/>
   <Footer/>  
     </>
   )

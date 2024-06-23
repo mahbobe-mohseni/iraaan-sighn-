@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import WebLog from "../components/WebLog";
 
+
+
 const Blog = () => {
   return (
     // <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center">
@@ -17,6 +19,7 @@ const Blog = () => {
 
   <>
  <WebLog/>
+ 
   </>
   );
 };
